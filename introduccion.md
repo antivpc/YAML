@@ -1,4 +1,4 @@
-[<- Volver al Indice](README.md) | [-> Siguiente](README.md)
+[:point_up_2: Volver al Indice](README.md) | [:point_right: Siguiente](tiposdedatos.md)
 
 # ¿Qué es YAML?
 
@@ -64,6 +64,6 @@ En resumen, YAML es una herramienta muy útil para trabajar con datos estructura
 
 ---
 
-[<- Volver al Indice](README.md) | [-> Siguiente](README.md)
+[:point_up_2: Volver al Indice](README.md) | [:point_right: Siguiente](tiposdedatos.md)
 
 
