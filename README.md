@@ -3,3 +3,7 @@
 Esta es una documentación sobre YAML en español.
 
 Si quieren realizar aportes son bienvenidos.
+
+## Indice
+
+- [Introduccion](introduccion.md)
