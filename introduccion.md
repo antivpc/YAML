@@ -1,3 +1,5 @@
+[<- Volver al Indice](README.md) | [-> Siguiente](README.md)
+
 # ¿Qué es YAML?
 
 YAML (se pronuncia "yamel") es un `lenguaje de serialización de datos legible por humanos` que se utiliza a menudo para escribir archivos de configuración. El nombre YAML originalmente significaba "Yet Another Markup Language" (Otro Lenguaje de Marcado Más), pero ahora se interpreta como "`YAML Ain't Markup Language`" (YAML No es un Lenguaje de Marcado), lo que enfatiza que está diseñado para datos, no para documentos.
@@ -60,4 +62,8 @@ habilidades:
 
 En resumen, YAML es una herramienta muy útil para trabajar con datos estructurados de una manera que es fácil de leer y mantener para los humanos, lo que lo convierte en una opción popular en el mundo de la configuración y la automatización.
 
-[Volver al Indice](README.md)
+---
+
+[<- Volver al Indice](README.md) | [-> Siguiente](README.md)
+
+
