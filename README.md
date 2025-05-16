@@ -7,3 +7,4 @@ Si quieren realizar aportes son bienvenidos.
 ## Indice
 
 - [Introduccion](introduccion.md)
+- [Tipos de datos](tiposdedatos.md)
