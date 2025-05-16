@@ -59,3 +59,5 @@ habilidades:
 ---
 
 En resumen, YAML es una herramienta muy útil para trabajar con datos estructurados de una manera que es fácil de leer y mantener para los humanos, lo que lo convierte en una opción popular en el mundo de la configuración y la automatización.
+
+[Volver al Indice](README.md)
