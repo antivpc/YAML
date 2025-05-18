@@ -4,8 +4,8 @@ Esta es una documentación sobre YAML en español.
 
 Si quieren realizar aportes son bienvenidos.
 
-## Indice
+## Índice
 
-- [Introduccion](introduccion.md)
+- [Introduccion](introducción.md)
 - [Tipos de datos](tiposdedatos.md)
 - [Elementos de GitHub Actions](elementos.md)
