@@ -1,4 +1,4 @@
-[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](introduccion.md) | [:point_right: Siguiente](README.md)
+[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](introduccion.md) | [:point_right: Siguiente](elementos.md)
 
 # Tipos de Datos en YAML
 
@@ -155,4 +155,4 @@ proyectos:
 
 Estos son los tipos de datos fundamentales que encontrarás al trabajar con YAML, cubriendo la mayoría de las necesidades para la serialización y configuración de datos.
 
-[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](introduccion.md) | [:point_right: Siguiente](README.md)
+[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](introduccion.md) | [:point_right: Siguiente](elementos.md)
