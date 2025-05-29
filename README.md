@@ -6,6 +6,6 @@ Si quieren realizar aportes son bienvenidos.
 
 ## Índice
 
-- [Introduccion](introduccion.md)
+- [Introducción](introduccion.md)
 - [Tipos de datos](tiposdedatos.md)
 - [Elementos de GitHub Actions](elementos.md)
