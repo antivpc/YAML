@@ -1,6 +1,6 @@
-# YAML - GUIA EN ESPAÑOL
+# GITHUB ACTIONS - GUIA EN ESPAÑOL
 
-Esta es una documentación sobre YAML en español.
+Esta es una documentación sobre YAML y su uso en GitHub Actinos en español.
 
 Si quieren realizar aportes son bienvenidos.
 
