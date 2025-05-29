@@ -1,6 +1,6 @@
 # GITHUB ACTIONS - GUIA EN ESPAÑOL
 
-Esta guía está pensada en ayudar a todos los que quieran aprender a usar GitHub Actinos, se empieza explicando que tipo de lenguaje es YAML y su uso en GitHub Actinos.
+Esta guía está pensada en ayudar a todos los que quieran aprender a usar GitHub Actions, se empieza explicando qué tipo de lenguaje es YAML y su uso en GitHub Actions.
 
 Si quieren realizar aportes son bienvenidos.
 
