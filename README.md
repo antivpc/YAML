@@ -6,6 +6,6 @@ Si quieren realizar aportes son bienvenidos.
 
 ## Índice
 
-- [Introducción](introduccion.md)
-- [Tipos de datos](tiposdedatos.md)
+- [Introducción de YAML](introduccion.md)
+- [Tipos de datos en YAML](tiposdedatos.md)
 - [Elementos de GitHub Actions](elementos.md)
