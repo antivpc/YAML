@@ -10,6 +10,16 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 
 ## Índice
 
+### Capítulo 1 - Introducción a YAML
+
+1. ¿Qué es YAML?
+   - Origen y propósito
+   - ¿Por qué usar YAML? Ventajas y desventajas
+   - Casos de uso comunes (configuración, orquestación, etc.)
+2. Diferencias entre YAML, JSON y XML
+   - Comparativa de sintaxis
+   - Cuándo elegir YAML sobre otros formatos
+
 - [Introducción de YAML](introduccion.md)
 - [Tipos de datos en YAML](tiposdedatos.md)
 - [Elementos de GitHub Actions](elementos.md)
