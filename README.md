@@ -20,6 +20,92 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
    - Comparativa de sintaxis
    - Cuándo elegir YAML sobre otros formatos
 
+### Capítulo 2 - Sintaxis Básica de YAML
+
+1. Estructura fundamental
+   - Clave-Valor (Mappings/Objetos)
+   - Listas (Sequences/Arrays)
+   - Escalares (Strings, Números, Booleanos, Nulos)
+2. Indentación y Espacios
+   - La importancia de los espacios
+   - Errores comunes de indentación
+3. Comentarios
+   - Comentarios de una línea
+   - Buenas prácticas para comentar
+
+
+
+
+
+
+
 - [Introducción de YAML](introduccion.md)
 - [Tipos de datos en YAML](tiposdedatos.md)
 - [Elementos de GitHub Actions](elementos.md)
+
+
+
+
+
+Capítulo 3: Tipos de Datos y Representación
+3.1 Cadenas de Texto (Strings)
+3.1.1 Cadenas sin comillas
+3.1.2 Cadenas con comillas simples y dobles
+3.1.3 Cadenas multilínea (literales y plegadas)
+3.2 Números
+3.2.1 Enteros
+3.2.2 Flotantes
+3.2.3 Notación exponencial
+3.3 Booleanos
+3.3.1 Valores verdaderos y falsos
+3.4 Nulos
+3.4.1 Representación de valores nulos
+3.5 Fechas y Horas
+3.5.1 Formatos estándar de fecha y hora
+3.6 Binario (opcional, para casos específicos)
+
+Capítulo 4: Estructuras Avanzadas
+4.1 Anidamiento de Clave-Valor y Listas
+4.1.1 Creación de estructuras complejas
+4.2 Bloques de Estilo
+4.2.1 Bloques escalares (literal y plegado)
+4.3 Anclas y Alias (Reutilización de datos)
+4.3.1 Definición de anclas (&)
+4.3.2 Uso de alias (*)
+4.3.3 Casos de uso y beneficios
+4.4 Directivas YAML
+4.4.1 Directivas de versión (%YAML)
+4.4.2 Directivas de etiquetas (%TAG)
+
+Capítulo 5: Validación y Herramientas
+5.1 Herramientas de Validación YAML
+5.1.1 Validadores online
+5.1.2 Herramientas de línea de comandos (Ej: yamllint)
+5.2 Esquemas YAML (ej. JSON Schema para YAML)
+5.2.1 ¿Qué son y para qué sirven?
+5.2.2 Cómo definir y usar esquemas
+
+Capítulo 6: Integración y Uso Práctico
+6.1 YAML en Lenguajes de Programación
+6.1.1 Python (PyYAML)
+6.1.2 JavaScript (js-yaml)
+6.1.3 Go (gopkg.in/yaml.v2)
+6.1.4 Otros lenguajes (mencionar librerías populares)
+6.2 Ejemplos de Uso Real
+6.2.1 Archivos de configuración (Docker Compose, Kubernetes)
+6.2.2 Automatización (Ansible)
+6.2.3 CI/CD (GitHub Actions, GitLab CI)
+
+Capítulo 7: Buenas Prácticas y Consejos
+7.1 Legibilidad y Mantenibilidad
+7.1.1 Consistencia en la indentación
+7.1.2 Uso apropiado de comentarios
+7.2 Evitar Errores Comunes
+7.2.1 Problemas con espacios al final de línea
+7.2.2 Orden de las claves (aunque YAML no garantiza el orden)
+7.3 Seguridad en YAML
+7.3.1 Deserialización de datos no confiables
+
+Apéndice A: Referencia Rápida de Sintaxis
+Apéndice B: Preguntas Frecuentes (FAQ)
+Apéndice C: Recursos Adicionales
