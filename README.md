@@ -65,6 +65,28 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
    - Directivas de versión (%YAML)
    - Directivas de etiquetas (%TAG)
 
+### Capítulo 5: Validación y Herramientas
+
+1. Herramientas de Validación YAML
+   - Validadores online
+   - Herramientas de línea de comandos (Ej: yamllint)
+2. Esquemas YAML (ej. JSON Schema para YAML)
+   - ¿Qué son y para qué sirven?
+   - Cómo definir y usar esquemas
+
+### Capítulo 6: Integración y Uso Práctico
+
+1. YAML en Lenguajes de Programación
+   - Python (PyYAML)
+   - JavaScript (js-yaml)
+   - Go (gopkg.in/yaml.v2)
+   - Otros lenguajes (mencionar librerías populares)
+2. Ejemplos de Uso Real
+   - Archivos de configuración (Docker Compose, Kubernetes)
+   - Automatización (Ansible)
+   - CI/CD (GitHub Actions, GitLab CI)
+
+
 
 
 - [Introducción de YAML](introduccion.md)
@@ -79,24 +101,7 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 
 
 
-Capítulo 5: Validación y Herramientas
-5.1 Herramientas de Validación YAML
-5.1.1 Validadores online
-5.1.2 Herramientas de línea de comandos (Ej: yamllint)
-5.2 Esquemas YAML (ej. JSON Schema para YAML)
-5.2.1 ¿Qué son y para qué sirven?
-5.2.2 Cómo definir y usar esquemas
 
-Capítulo 6: Integración y Uso Práctico
-6.1 YAML en Lenguajes de Programación
-6.1.1 Python (PyYAML)
-6.1.2 JavaScript (js-yaml)
-6.1.3 Go (gopkg.in/yaml.v2)
-6.1.4 Otros lenguajes (mencionar librerías populares)
-6.2 Ejemplos de Uso Real
-6.2.1 Archivos de configuración (Docker Compose, Kubernetes)
-6.2.2 Automatización (Ansible)
-6.2.3 CI/CD (GitHub Actions, GitLab CI)
 
 Capítulo 7: Buenas Prácticas y Consejos
 7.1 Legibilidad y Mantenibilidad
