@@ -33,9 +33,37 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
    - Comentarios de una línea
    - Buenas prácticas para comentar
 
+### Capítulo 3: Tipos de Datos y Representación
 
+1. Cadenas de Texto (Strings)
+   - Cadenas sin comillas
+   - Cadenas con comillas simples y dobles
+   - Cadenas multilínea (literales y plegadas)
+2. Números
+   - Enteros
+   - Flotantes
+   - Notación exponencial
+3. Booleanos
+   - Valores verdaderos y falsos
+4. Nulos
+   - Representación de valores nulos
+5. Fechas y Horas
+   - Formatos estándar de fecha y hora
+6. Binario (opcional, para casos específicos)
 
+### Capítulo 4: Estructuras Avanzadas
 
+1. Anidamiento de Clave-Valor y Listas
+   - Creación de estructuras complejas
+2. Bloques de Estilo
+   - Bloques escalares (literal y plegado)
+3. Anclas y Alias (Reutilización de datos)
+   - Definición de anclas (&)
+   - Uso de alias (*)
+   - Casos de uso y beneficios
+4. Directivas YAML
+   - Directivas de versión (%YAML)
+   - Directivas de etiquetas (%TAG)
 
 
 
@@ -47,35 +75,9 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 
 
 
-Capítulo 3: Tipos de Datos y Representación
-3.1 Cadenas de Texto (Strings)
-3.1.1 Cadenas sin comillas
-3.1.2 Cadenas con comillas simples y dobles
-3.1.3 Cadenas multilínea (literales y plegadas)
-3.2 Números
-3.2.1 Enteros
-3.2.2 Flotantes
-3.2.3 Notación exponencial
-3.3 Booleanos
-3.3.1 Valores verdaderos y falsos
-3.4 Nulos
-3.4.1 Representación de valores nulos
-3.5 Fechas y Horas
-3.5.1 Formatos estándar de fecha y hora
-3.6 Binario (opcional, para casos específicos)
 
-Capítulo 4: Estructuras Avanzadas
-4.1 Anidamiento de Clave-Valor y Listas
-4.1.1 Creación de estructuras complejas
-4.2 Bloques de Estilo
-4.2.1 Bloques escalares (literal y plegado)
-4.3 Anclas y Alias (Reutilización de datos)
-4.3.1 Definición de anclas (&)
-4.3.2 Uso de alias (*)
-4.3.3 Casos de uso y beneficios
-4.4 Directivas YAML
-4.4.1 Directivas de versión (%YAML)
-4.4.2 Directivas de etiquetas (%TAG)
+
+
 
 Capítulo 5: Validación y Herramientas
 5.1 Herramientas de Validación YAML
