@@ -60,7 +60,9 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 6. Binario (opcional, para casos específicos)
 </details>
 
-### Capítulo 4: Estructuras Avanzadas
+### [Capítulo 4: Estructuras Avanzadas](capitulo-4.md)
+<details>
+   <summary>Contenido</summary>
 
 1. Anidamiento de Clave-Valor y Listas
    - Creación de estructuras complejas
@@ -73,8 +75,11 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 4. Directivas YAML
    - Directivas de versión (%YAML)
    - Directivas de etiquetas (%TAG)
+</details>
 
-### Capítulo 5: Validación y Herramientas
+### [Capítulo 5: Validación y Herramientas](capitulo-5.md)
+<details>
+   <summary>Contenido</summary>
 
 1. Herramientas de Validación YAML
    - Validadores online
@@ -82,8 +87,11 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 2. Esquemas YAML (ej. JSON Schema para YAML)
    - ¿Qué son y para qué sirven?
    - Cómo definir y usar esquemas
+</details>
 
-### Capítulo 6: Integración y Uso Práctico
+### [Capítulo 6: Integración y Uso Práctico](capitulo-6.md)
+<details>
+   <summary>Contenido</summary>
 
 1. YAML en Lenguajes de Programación
    - Python (PyYAML)
@@ -94,8 +102,11 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
    - Archivos de configuración (Docker Compose, Kubernetes)
    - Automatización (Ansible)
    - CI/CD (GitHub Actions, GitLab CI)
+</details>
 
-### Capítulo 7: Buenas Prácticas y Consejos
+### [Capítulo 7: Buenas Prácticas y Consejos](capitulo-7.md)
+<details>
+   <summary>Contenido</summary>
 
 1. Legibilidad y Mantenibilidad
    - Consistencia en la indentación
@@ -105,10 +116,11 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
    - Orden de las claves (aunque YAML no garantiza el orden)
 3. Seguridad en YAML
    - Deserialización de datos no confiables
+</details>
 
-### Apéndice A: Referencia Rápida de Sintaxis
-### Apéndice B: Preguntas Frecuentes (FAQ)
-### Apéndice C: Recursos Adicionales
+### [Apéndice A: Referencia Rápida de Sintaxis](apendice-a.md)
+### [Apéndice B: Preguntas Frecuentes (FAQ)](apendice-b.md)
+### [Apéndice C: Recursos Adicionales](apendice-c.md)
 
 
 
