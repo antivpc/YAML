@@ -1,4 +1,4 @@
-[:point_up_2: Volver al Indice](README.md) | [:point_right: Siguiente](tiposdedatos.md)
+[:point_up_2: Volver al Indice](README.md) | [:point_right: Capítulo 2](capitulo-2.md)
 
 ---
 
@@ -182,7 +182,4 @@ En resumen, mientras JSON es el "lingua franca" para el intercambio de datos en 
 
 ---
 
-[:point_up_2: Volver al Indice](README.md) | [:point_right: Siguiente](tiposdedatos.md)
-
-
-
+[:point_up_2: Volver al Indice](README.md) | [:point_right: Capítulo 2](capitulo-2.md)
