@@ -256,4 +256,76 @@ Dominar la indentación es el paso más importante para escribir YAML efectivo y
 
 ---
 
+## 3. Comentarios
+
+Los **comentarios** son líneas de texto que los procesadores de YAML ignoran completamente. Su propósito es hacer que tu código o archivo de configuración sea más fácil de entender para los humanos. Añadir comentarios es una **muy buena práctica** para documentar la intención, explicar decisiones de diseño, o incluso para deshabilitar temporalmente ciertas partes de la configuración.
+
+##
+### Comentarios de una Línea
+
+En YAML, un comentario comienza con el símbolo de almohadilla o numeral (`#`). Todo lo que sigue al `#` en esa línea se considera parte del comentario y no será interpretado como parte de los datos YAML.
+
+Puedes colocar comentarios:
+
+1.  **En una línea separada:** Esto es ideal para explicar secciones enteras o para añadir notas generales.
+    ```yaml
+    # Este es un comentario que explica la configuración de la aplicación
+    aplicacion: MiServicio
+    ```
+
+2.  **Al final de una línea de código:** Útil para explicar el propósito de una clave-valor específica.
+    ```yaml
+    puerto: 8080 # El puerto en el que la aplicación escuchará
+    debug: true  # Habilitar el modo de depuración para desarrollo
+    ```
+    Es importante que haya al menos un espacio entre el valor y el `#` si el comentario va en la misma línea.
+
+**Ejemplos:**
+
+```yaml
+# Configuración de la base de datos
+database:
+  type: postgres
+  host: localhost
+  port: 5432 # Puerto estándar para PostgreSQL
+  username: admin
+  password: supersecret # ¡En un entorno real, esto debería ser una variable de entorno!
+
+# Lista de usuarios permitidos
+usuarios_permitidos:
+  - nombre: Alice
+    rol: admin
+  - nombre: Bob # Bob es un usuario regular
+    rol: viewer
+```
+
+##
+### Buenas Prácticas para Comentar
+
+Aunque los comentarios son excelentes, es bueno seguir algunas pautas para mantener tus archivos YAML limpios y efectivos:
+
+* **Sé claro y conciso:** El objetivo del comentario es añadir claridad, no confusión. Evita comentarios demasiado largos o redundantes.
+* **Comenta el "por qué", no solo el "qué":** Es más útil explicar la razón detrás de una configuración (`# Habilitar CORS para permitir solicitudes desde el frontend`) que simplemente repetir lo que ya dice el código (`# Esto habilita CORS`).
+* **Mantén los comentarios actualizados:** Un comentario desactualizado puede ser peor que no tener ninguno, ya que puede inducir a error. Si cambias el código, asegúrate de que el comentario siga siendo relevante.
+* **Usa el espacio adecuadamente:** Para comentarios al final de la línea, un espacio antes del `#` mejora la legibilidad. Si el comentario es muy largo, considera ponerlo en una línea separada encima del elemento que comenta.
+* **Evita comentar lo obvio:** Si una clave como `nombre_usuario: "admin"` es autoexplicativa, un comentario que diga `# Nombre de usuario` es innecesario.
+
+**Ejemplo de buenas prácticas:**
+
+```yaml
+# Configuración del entorno de despliegue
+# Esta sección define los parámetros específicos para el despliegue en producción
+entorno:
+  nombre: produccion
+  # Deshabilitar las notificaciones por correo electrónico para evitar spam durante pruebas.
+  # Se activarán una vez que el sistema esté completamente en vivo.
+  notificaciones_email: false
+  # El nivel de log debe ser 'info' o superior en producción para evitar sobrecarga de logs.
+  log_level: info
+```
+
+Al incorporar comentarios de manera reflexiva, transformarás tus archivos YAML de simples contenedores de datos en documentos autodocumentados que son fáciles de entender y mantener para cualquiera que trabore con ellos, incluido tu yo futuro.
+
+---
+
 [:point_up_2: Volver al Índice](README.md) | [:point_left: Capítulo 1](capitulo-1.md) | [:point_right: Capítulo 3](capitulo-3.md)
