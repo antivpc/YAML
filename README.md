@@ -86,6 +86,20 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
    - Automatización (Ansible)
    - CI/CD (GitHub Actions, GitLab CI)
 
+### Capítulo 7: Buenas Prácticas y Consejos
+
+1. Legibilidad y Mantenibilidad
+   - Consistencia en la indentación
+   - Uso apropiado de comentarios
+2. Evitar Errores Comunes
+   - Problemas con espacios al final de línea
+   - Orden de las claves (aunque YAML no garantiza el orden)
+3. Seguridad en YAML
+   - Deserialización de datos no confiables
+
+### Apéndice A: Referencia Rápida de Sintaxis
+### Apéndice B: Preguntas Frecuentes (FAQ)
+### Apéndice C: Recursos Adicionales
 
 
 
@@ -103,16 +117,3 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 
 
 
-Capítulo 7: Buenas Prácticas y Consejos
-7.1 Legibilidad y Mantenibilidad
-7.1.1 Consistencia en la indentación
-7.1.2 Uso apropiado de comentarios
-7.2 Evitar Errores Comunes
-7.2.1 Problemas con espacios al final de línea
-7.2.2 Orden de las claves (aunque YAML no garantiza el orden)
-7.3 Seguridad en YAML
-7.3.1 Deserialización de datos no confiables
-
-Apéndice A: Referencia Rápida de Sintaxis
-Apéndice B: Preguntas Frecuentes (FAQ)
-Apéndice C: Recursos Adicionales
