@@ -4,8 +4,6 @@
 
 # Capítulo 2 - Sintaxis Básica de YAML
 
----
-
 ## 1. Estructura Fundamental
 
 La simplicidad y legibilidad de YAML se basan en tres estructuras fundamentales: los `pares clave-valor` (conocidos como *mappings* u objetos), las **listas** (también llamadas *sequences* o arrays) y los **escalares** (los valores atómicos como cadenas de texto, números, booleanos, etc.). La **indentación** con espacios es la piedra angular que define la jerarquía y la anidación de estas estructuras.
@@ -136,6 +134,125 @@ configuracion_general:
 ```
 
 Es crucial recordar que la **indentación correcta** es lo que le dice a YAML cómo se relacionan estos pares clave-valor, listas y escalares entre sí. Cada nivel de anidamiento debe tener una indentación consistente (generalmente 2 o 4 espacios).
+
+---
+
+## 2. Indentación y Espacios
+
+La **indentación** es el pilar fundamental de la sintaxis de YAML. A diferencia de otros formatos como XML o JSON que usan llaves (`{}`), corchetes (`[]`) o etiquetas para definir la estructura, YAML utiliza **espacios en blanco** al inicio de cada línea para indicar la jerarquía y el anidamiento de los datos. Esto es lo que le otorga su extrema legibilidad, pero también lo que requiere precisión.
+
+##
+### La Importancia de los Espacios
+
+En YAML:
+
+* **Los espacios son significativos:** La cantidad de espacios al comienzo de una línea determina si un elemento es hijo de otro o si está al mismo nivel.
+* **No se permiten tabulaciones:** Es vital usar **solo espacios** para la indentación. Los analizadores de YAML suelen rechazar archivos que contengan tabulaciones, o pueden interpretarlos de manera inesperada. La mayoría de los editores de código están configurados para convertir las tabulaciones en espacios automáticamente, pero es algo a tener en cuenta.
+* **Indentación consistente:** Dentro de un mismo nivel de anidamiento, todos los elementos deben tener la misma cantidad de espacios de indentación. El estándar recomienda usar **dos espacios** o **cuatro espacios** para cada nivel de indentación, pero lo más importante es ser **consistente** en todo el documento. Si decides usar dos espacios por nivel, úsalos siempre; si decides usar cuatro, haz lo mismo.
+
+Veamos cómo funciona la indentación con un ejemplo:
+
+```yaml
+# Nivel 0
+persona:
+  # Nivel 1 (2 espacios de indentación)
+  nombre: Ana
+  edad: 28
+  ciudad: Barcelona
+  # Nivel 1, contiene un mapping anidado
+  contacto:
+    # Nivel 2 (4 espacios de indentación, 2 más que el nivel 1)
+    email: ana@ejemplo.com
+    telefono: "123-456-7890"
+  # Nivel 1, contiene una lista
+  hobbies:
+    # Nivel 2 (4 espacios de indentación)
+    - leer
+    - cocinar
+    - viajar
+```
+
+En este ejemplo:
+* `persona` está en el nivel superior (sin indentación).
+* `nombre`, `edad`, `ciudad`, `contacto`, y `hobbies` están indentados con **dos espacios**, lo que los convierte en propiedades del objeto `persona`.
+* `email` y `telefono` están indentados con **cuatro espacios** (dos más que `contacto`), lo que los convierte en propiedades del objeto `contacto`.
+* `leer`, `cocinar`, y `viajar` (elementos de la lista `hobbies`) también están indentados con **cuatro espacios** y precedidos por el guion (`-`).
+
+##
+### Errores Comunes de Indentación
+
+La sensibilidad a la indentación es una de las principales fuentes de errores al escribir YAML. Presta especial atención a los siguientes problemas comunes:
+
+1.  **Uso de Tabulaciones en lugar de Espacios:**
+    * **Incorrecto (con tabulaciones):**
+        ```yaml
+        config:
+        	puerto: 8080 # Aquí hay una tabulación
+        ```
+    * **Correcto (con espacios):**
+        ```yaml
+        config:
+          puerto: 8080 # Aquí hay 2 espacios
+        ```
+    **Consejo:** Configura tu editor de código para reemplazar las tabulaciones con espacios automáticamente (generalmente es la configuración por defecto para YAML).
+
+2.  **Indentación Inconsistente:**
+    * **Incorrecto (mezclando niveles de indentación o números de espacios):**
+        ```yaml
+        servicios:
+          web:
+            puerto: 80 # 2 espacios
+           version: 1.0 # 3 espacios, inconsistente con 'puerto'
+          db: # 2 espacios
+            usuario: admin # 4 espacios
+           password: secure # 3 espacios
+        ```
+    * **Correcto:**
+        ```yaml
+        servicios:
+          web:
+            puerto: 80
+            version: 1.0
+          db:
+            usuario: admin
+            password: secure
+        ```
+    **Consejo:** Elige una cantidad de espacios (2 o 4 son los más comunes) y sé estricto con ella.
+
+3.  **Espacios Faltantes Después de los Dos Puntos (`:`):**
+    El separador clave-valor (`:`) debe ir siempre seguido de al menos un espacio.
+    * **Incorrecto:**
+        ```yaml
+        nombre:Juan
+        edad :30
+        ```
+    * **Correcto:**
+        ```yaml
+        nombre: Juan
+        edad: 30
+        ```
+
+4.  **Guiones de Lista Mal Indentados o sin Espacio:**
+    El guion (`-`) de un elemento de lista debe estar correctamente indentado al mismo nivel de la lista y seguido de un espacio.
+    * **Incorrecto:**
+        ```yaml
+        tareas:
+        -Comprar pan # Sin espacio después del guion
+         -Estudiar     # Mala indentación
+        ```
+    * **Correcto:**
+        ```yaml
+        tareas:
+          - Comprar pan
+          - Estudiar
+        ```
+
+**Herramientas para Evitar Errores:**
+
+* **Editores de Código:** Utiliza editores como VS Code, Sublime Text, Atom, o IDEs como IntelliJ IDEA, que tienen excelente soporte para YAML. Estos resaltan errores de sintaxis, gestionan la indentación automáticamente y te alertan sobre problemas de espacios/tabulaciones.
+* **Validadores YAML:** Herramientas online (como [YAML Lint](https://www.yamllint.com/)) o de línea de comandos (`yamllint`) son invaluables para verificar la sintaxis de tus archivos y encontrar errores de indentación antes de que causen problemas en tu aplicación.
+
+Dominar la indentación es el paso más importante para escribir YAML efectivo y sin errores. Una vez que te acostumbres a ella, apreciarás la limpieza y legibilidad que ofrece este formato.
 
 ---
 
