@@ -11,7 +11,9 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 ## Índice
 
 ### [Capítulo 1 - Introducción a YAML](capitulo-1.md)
-
+<details>
+   <summary>Contenido</summary>
+   
 1. ¿Qué es YAML?
    - Origen y propósito
    - ¿Por qué usar YAML? Ventajas y desventajas
@@ -19,8 +21,11 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 2. Diferencias entre YAML, JSON y XML
    - Comparativa de sintaxis
    - Cuándo elegir YAML sobre otros formatos
-
+</details>
+   
 ### [Capítulo 2 - Sintaxis Básica de YAML](capitulo-2.md)
+<details>
+   <summary>Contenido</summary>
 
 1. Estructura fundamental
    - Clave-Valor (Mappings/Objetos)
@@ -32,8 +37,11 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 3. Comentarios
    - Comentarios de una línea
    - Buenas prácticas para comentar
+</details>
 
-### Capítulo 3: Tipos de Datos y Representación
+### [Capítulo 3: Tipos de Datos y Representación](capitulo-3.md)
+<details>
+   <summary>Contenido</summary>
 
 1. Cadenas de Texto (Strings)
    - Cadenas sin comillas
@@ -50,6 +58,7 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 5. Fechas y Horas
    - Formatos estándar de fecha y hora
 6. Binario (opcional, para casos específicos)
+</details>
 
 ### Capítulo 4: Estructuras Avanzadas
 
