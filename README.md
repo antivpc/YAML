@@ -20,7 +20,7 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
    - Comparativa de sintaxis
    - Cuándo elegir YAML sobre otros formatos
 
-### Capítulo 2 - Sintaxis Básica de YAML
+### [Capítulo 2 - Sintaxis Básica de YAML](capitulo-2.md)
 
 1. Estructura fundamental
    - Clave-Valor (Mappings/Objetos)
