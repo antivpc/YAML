@@ -10,7 +10,7 @@ A lo largo de los siguientes capítulos, exploraremos la sintaxis fundamental, l
 
 ## Índice
 
-### Capítulo 1 - Introducción a YAML
+### [Capítulo 1 - Introducción a YAML](capitulo-1.md)
 
 1. ¿Qué es YAML?
    - Origen y propósito
