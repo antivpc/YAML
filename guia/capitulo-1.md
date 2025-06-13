@@ -1,4 +1,4 @@
-[:point_up_2: Volver al Índice](../README.md) | [:point_right: Capítulo 2](guia/capitulo-2.md)
+[:point_up_2: Volver al Índice](indice.md) | [:point_right: Capítulo 2](capitulo-2.md)
 
 ---
 
