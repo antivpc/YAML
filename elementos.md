@@ -1,4 +1,4 @@
-[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](tiposdedatos.md) | [:point_right: Siguiente](README.md)
+[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](tiposdedatos.md)
 
 # Introducción a elementos de GitHub Actions
 
@@ -138,4 +138,4 @@ jobs:
 
 Estos componentes trabajan en conjunto para formar un sistema robusto y flexible para la automatización de tus procesos de desarrollo de software.
 
-[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](tiposdedatos.md) | [:point_right: Siguiente](README.md)
+[:point_up_2: Volver al Indice](README.md) | [:point_left: Anterior](tiposdedatos.md)
